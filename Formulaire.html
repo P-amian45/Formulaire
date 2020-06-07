@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta description="Formulaire d'inscription">
+  </head>
+  
+  <body>
+    <h1>FORMULAIRE D'INSCRIPTION</h1>
+    <p>Nous vous prions de remplir ce formulaire avec les informations demandées. les champs en gras sont obligatoires. <em>Ces informations nous permettront de personaliser votre espace etudiant</em></p>
+    <form action="Felicitations.html">
+      <table cellspacing="30">
+        <tr>
+         <td><label><strong>Nom</strong></label></td>
+         <td><input type="text"></td>
+         </tr>
+         <tr>
+           <td><label><strong>Prenoms</strong></label></td>
+           <td><input type="text"></td>
+         </tr>
+         <tr>
+           <td><label><strong>E-mail</strong></label></td>
+           <td><input type="email"></td>
+         </tr>
+         <tr>
+           <td><label>Code Postal</label></td>
+           <td><input type="text"></td>
+         </tr>
+         <tr>
+           <td><label><strong>Lieu d'habitation</strong></label></td>
+           <td><input type="text"></td>
+         </tr>
+         <tr>
+           <td><label><strong>Date de naissance</strong></label></td>
+           <td><input type="date"></td>
+         </tr>
+         <tr>
+           <td><label>Lieu de naissance</label></td>
+           <td><input type="text"></td>
+         </tr>
+         <tr>
+           <td><label><strong>Sexe</strong></label></td>
+           <td><input type="radio">Homme
+           <input type="radio">Femme</td>
+         </tr>
+         <tr>
+           <td><label><strong>Niveau</strong></label></td>
+           <td><input list="Classe" id="Classe"></td>
+           <datalist id="Classe">
+                <option value="6eme">
+                <option value="5eme">
+                <option value="4eme">
+                <option value="3eme">
+           </datalist>
+         </tr>
+         <tr>
+           <td><label><strong>Vous êtes</strong></label></td>
+           <td><input list="bourse" id="bourse"></td>
+           <datalist id="bourse">
+                <option value="Orienté boursier">
+                <option value="Orienté non boursier">
+                <option value="Non orienté">
+           </datalist>
+         </tr>
+         <tr>
+           <td><label>Souhaitez-vous prendre des cours additionnels</label></td>
+           <td><input type="radio">Oui
+           <input type="radio">Non</td>
+         </tr>
+      </table>
+      <p>
+      <input type="checkbox"> J'accepte les clauses de confidentialités et je m'engage à respecter le reglement de l'ecole
+      </p>
+      <input type="submit">
+    </form>
+  </body>
+</html>
